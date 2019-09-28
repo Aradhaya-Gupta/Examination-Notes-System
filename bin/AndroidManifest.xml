@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notessystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.notessystem.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.notessystem.HomeActivity"></activity>
+         <activity android:name="com.example.notessystem.CategoryActivity"></activity>
+         <activity android:name="com.example.notessystem.AddCategoryActivity"></activity>
+         <activity android:name="com.example.notessystem.ShowCategoryActivity"></activity>
+         <activity android:name="com.example.notessystem.AddNotesActivity"></activity>
+         <activity android:name="com.example.notessystem.NotesCategoryActivity"></activity>
+         <activity android:name="com.example.notessystem.ShowSubjectActivity"></activity>
+         <activity android:name="com.example.notessystem.SubjectDetailActivity"></activity>
+          <activity android:name="com.example.notessystem.EditCategoryActivity"></activity>
+          <activity android:name="com.example.notessystem.DeleteCategoryActivity"></activity>
+          <activity android:name="com.example.notessystem.DeleteNotesActivity"></activity>
+          <activity android:name="com.example.notessystem.UpdateNotesActivity"></activity>
+    </application>
+
+</manifest>
